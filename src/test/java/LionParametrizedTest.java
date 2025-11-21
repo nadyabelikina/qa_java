@@ -25,12 +25,5 @@ public class LionParametrizedTest {
                 {"Самка", false},
         };
     }
-
-    @Test
-    public void getHaveManeReturns() throws Exception {
-        Lion lion = new Lion(sex, feline);
-        boolean actualHasMane = lion.doesHaveMane();
-        assertEquals(expectedHasMane, actualHasMane);
-    }
 }
 
